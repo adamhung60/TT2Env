@@ -20,7 +20,7 @@ class TT2Env(gym.Env):
 
         self.max_steps = 500
         self.steps_taken = 0
-        self.frame_skip = 5
+        self.frame_skips = 5
 
         self.joints = [0, 1, 2, 3]
         self.numJoints = len(self.joints)
